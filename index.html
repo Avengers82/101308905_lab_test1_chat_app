@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device - width, initial - scale = 1.0">
+        <link rel = "stylesheet" href = "style.css">
+        <title>Lab Test 1 - Chat Application</title>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        
+        <div class="container">
+            <div class="form-container">
+                <h1>Welcome to Chat App</h1>
+                <div id="loginForm">
+                    <h2>Login</h2>
+                    <form id="login">
+                        <label for="loginUsername">Username:</label>
+                        <input type="text" id="loginUsername" name="loginUsername" required>
+    
+                        <label for="loginPassword">Password:</label>
+                        <input type="password" id="loginPassword" name="loginPassword" required>
+    
+                        <button type="submit">Login</button>
+                    </form>
+                    <p>Don't have an account? <a href="#" onclick="showSignupForm()">Sign up</a></p>
+                </div>
+    
+                <div id="signupForm" style="display:none;">
+                    <h2>Signup</h2>
+                    <form id="signup">
+                        <label for="signupUsername">Username:</label>
+                        <input type="text" id="signupUsername" name="signupUsername" required>
+    
+                        <label for="signupPassword">Password:</label>
+                        <input type="password" id="signupPassword" name="signupPassword" required>
+    
+                        <button type="submit">Sign up</button>
+                    </form>
+                    <p>Already have an account? <a href="#" onclick="showLoginForm()">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
