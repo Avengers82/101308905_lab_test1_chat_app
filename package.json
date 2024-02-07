@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "socket.io": "^4.7.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "101308905_lab_test1_chat_app",
+  "version": "1.0.0",
+  "main": "model.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avengers82/101308905_lab_test1_chat_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avengers82/101308905_lab_test1_chat_app/issues"
+  },
+  "homepage": "https://github.com/Avengers82/101308905_lab_test1_chat_app#readme",
+  "description": ""
+}
